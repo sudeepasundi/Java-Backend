@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="240" viewBox="0 0 920 240" role="img" aria-labelledby="title desc">
+  <title id="title">Logging flow</title>
+  <desc id="desc">Flowchart showing application event to logger, log framework, console/file, and monitoring system.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#fef3c7;stroke:#b45309;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="30" y="85" width="135" height="70" class="box"/><text x="97" y="112" text-anchor="middle" class="text">App Event</text><text x="97" y="134" text-anchor="middle" class="small">order created</text>
+  <path d="M165 120 H225" class="line"/><rect x="230" y="85" width="125" height="70" class="accent"/><text x="292" y="112" text-anchor="middle" class="text">SLF4J</text><text x="292" y="134" text-anchor="middle" class="small">logger API</text>
+  <path d="M355 120 H415" class="line"/><rect x="420" y="85" width="125" height="70" class="box"/><text x="482" y="112" text-anchor="middle" class="text">Logback</text><text x="482" y="134" text-anchor="middle" class="small">implementation</text>
+  <path d="M545 120 H605" class="line"/><rect x="610" y="85" width="125" height="70" class="box"/><text x="672" y="112" text-anchor="middle" class="text">Output</text><text x="672" y="134" text-anchor="middle" class="small">file/console</text>
+  <path d="M735 120 H795" class="line"/><rect x="800" y="85" width="95" height="70" class="accent"/><text x="847" y="112" text-anchor="middle" class="text">Monitor</text><text x="847" y="134" text-anchor="middle" class="small">search</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="260" viewBox="0 0 920 260" role="img" aria-labelledby="title desc">
+  <title id="title">Component scanning flow</title>
+  <desc id="desc">Flowchart showing base package scanning, annotation detection, bean registration, and dependency wiring.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#fef3c7;stroke:#b45309;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="35" y="85" width="140" height="70" class="accent"/><text x="105" y="112" text-anchor="middle" class="text">Base Package</text><text x="105" y="134" text-anchor="middle" class="small">com.example</text>
+  <path d="M175 120 H235" class="line"/><rect x="240" y="85" width="140" height="70" class="box"/><text x="310" y="112" text-anchor="middle" class="text">Scan Classes</text><text x="310" y="134" text-anchor="middle" class="small">recursive</text>
+  <path d="M380 120 H440" class="line"/><rect x="445" y="85" width="150" height="70" class="box"/><text x="520" y="112" text-anchor="middle" class="text">Find Annotations</text><text x="520" y="134" text-anchor="middle" class="small">@Service, @Repository</text>
+  <path d="M595 120 H655" class="line"/><rect x="660" y="85" width="110" height="70" class="box"/><text x="715" y="112" text-anchor="middle" class="text">Register</text><text x="715" y="134" text-anchor="middle" class="small">bean definitions</text>
+  <path d="M770 120 H830" class="line"/><rect x="835" y="85" width="70" height="70" class="accent"/><text x="870" y="112" text-anchor="middle" class="text">Wire</text><text x="870" y="134" text-anchor="middle" class="small">DI</text>
+</svg>
+

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="260" viewBox="0 0 980 260" role="img" aria-labelledby="title desc">
+  <title id="title">Java fundamentals learning path</title>
+  <desc id="desc">Flowchart showing Java basics leading to OOP, collections, JVM, concurrency, web basics, testing, and backend readiness.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#334155"/>
+    </marker>
+    <style>
+      .box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:12}
+      .accent{fill:#e0f2fe;stroke:#0369a1;stroke-width:2;rx:12}
+      .text{font-family:Arial, Helvetica, sans-serif;font-size:16px;fill:#0f172a}
+      .small{font-family:Arial, Helvetica, sans-serif;font-size:13px;fill:#475569}
+      .line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect x="25" y="82" width="120" height="74" class="accent"/>
+  <text x="85" y="112" text-anchor="middle" class="text">Syntax</text>
+  <text x="85" y="136" text-anchor="middle" class="small">variables, loops</text>
+  <path d="M145 119 H188" class="line"/>
+  <rect x="190" y="82" width="120" height="74" class="box"/>
+  <text x="250" y="112" text-anchor="middle" class="text">OOP</text>
+  <text x="250" y="136" text-anchor="middle" class="small">classes, objects</text>
+  <path d="M310 119 H353" class="line"/>
+  <rect x="355" y="82" width="130" height="74" class="box"/>
+  <text x="420" y="112" text-anchor="middle" class="text">Collections</text>
+  <text x="420" y="136" text-anchor="middle" class="small">List, Set, Map</text>
+  <path d="M485 119 H528" class="line"/>
+  <rect x="530" y="82" width="120" height="74" class="box"/>
+  <text x="590" y="112" text-anchor="middle" class="text">JVM</text>
+  <text x="590" y="136" text-anchor="middle" class="small">memory, GC</text>
+  <path d="M650 119 H693" class="line"/>
+  <rect x="695" y="82" width="130" height="74" class="box"/>
+  <text x="760" y="112" text-anchor="middle" class="text">Concurrency</text>
+  <text x="760" y="136" text-anchor="middle" class="small">threads, safety</text>
+  <path d="M825 119 H868" class="line"/>
+  <rect x="870" y="82" width="85" height="74" class="accent"/>
+  <text x="912" y="108" text-anchor="middle" class="text">Backend</text>
+  <text x="912" y="132" text-anchor="middle" class="small">ready</text>
+  <path d="M250 156 V210 H760 V156" class="line"/>
+  <text x="505" y="232" text-anchor="middle" class="small">Testing, logging, build tools, and web containers support every stage</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230" role="img" aria-labelledby="title desc">
+  <title id="title">Java program execution flow</title>
+  <desc id="desc">Flowchart showing source code compiled to bytecode and executed by the JVM.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1f2937"/>
+    </marker>
+    <style>
+      .box{fill:#f8fafc;stroke:#1f2937;stroke-width:2;rx:10}
+      .blue{fill:#dbeafe;stroke:#1d4ed8;stroke-width:2;rx:10}
+      .text{font-family:Arial, Helvetica, sans-serif;font-size:17px;fill:#111827}
+      .small{font-family:Arial, Helvetica, sans-serif;font-size:13px;fill:#4b5563}
+      .line{stroke:#1f2937;stroke-width:2;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect x="35" y="70" width="140" height="80" class="blue"/>
+  <text x="105" y="103" text-anchor="middle" class="text">Source Code</text>
+  <text x="105" y="128" text-anchor="middle" class="small">Main.java</text>
+  <path d="M175 110 H240" class="line"/>
+  <rect x="245" y="70" width="140" height="80" class="box"/>
+  <text x="315" y="103" text-anchor="middle" class="text">Compiler</text>
+  <text x="315" y="128" text-anchor="middle" class="small">javac</text>
+  <path d="M385 110 H450" class="line"/>
+  <rect x="455" y="70" width="140" height="80" class="box"/>
+  <text x="525" y="103" text-anchor="middle" class="text">Bytecode</text>
+  <text x="525" y="128" text-anchor="middle" class="small">.class file</text>
+  <path d="M595 110 H660" class="line"/>
+  <rect x="665" y="70" width="170" height="80" class="blue"/>
+  <text x="750" y="103" text-anchor="middle" class="text">JVM Runs It</text>
+  <text x="750" y="128" text-anchor="middle" class="small">starts from main</text>
+</svg>
+

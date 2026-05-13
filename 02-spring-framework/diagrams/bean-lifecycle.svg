@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="300" viewBox="0 0 980 300" role="img" aria-labelledby="title desc">
+  <title id="title">Spring bean lifecycle</title>
+  <desc id="desc">Flowchart showing Spring bean creation, dependency injection, post processors, initialization, ready state, and destruction.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:13px;fill:#0f172a}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="20" y="95" width="105" height="60" class="box"/><text x="72" y="130" text-anchor="middle" class="text">Create</text>
+  <path d="M125 125 H165" class="line"/><rect x="170" y="95" width="105" height="60" class="box"/><text x="222" y="130" text-anchor="middle" class="text">Inject</text>
+  <path d="M275 125 H315" class="line"/><rect x="320" y="95" width="125" height="60" class="box"/><text x="382" y="122" text-anchor="middle" class="text">Aware</text><text x="382" y="140" text-anchor="middle" class="text">callbacks</text>
+  <path d="M445 125 H485" class="line"/><rect x="490" y="95" width="120" height="60" class="box"/><text x="550" y="122" text-anchor="middle" class="text">Before init</text><text x="550" y="140" text-anchor="middle" class="text">processors</text>
+  <path d="M610 125 H650" class="line"/><rect x="655" y="95" width="105" height="60" class="accent"/><text x="707" y="130" text-anchor="middle" class="text">Init</text>
+  <path d="M760 125 H800" class="line"/><rect x="805" y="95" width="145" height="60" class="accent"/><text x="877" y="122" text-anchor="middle" class="text">Ready</text><text x="877" y="140" text-anchor="middle" class="text">then destroy</text>
+  <path d="M707 155 V220 H877 V155" class="line"/>
+</svg>
+

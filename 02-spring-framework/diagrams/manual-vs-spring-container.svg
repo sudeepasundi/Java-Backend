@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="330" viewBox="0 0 980 330" role="img" aria-labelledby="title desc">
+  <title id="title">Manual object creation versus Spring container</title>
+  <desc id="desc">Diagram comparing manual new object wiring with Spring container managed beans and injection.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.bad{fill:#fee2e2;stroke:#b91c1c;stroke-width:2;rx:10}.good{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:15px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <text x="245" y="32" text-anchor="middle" class="text">Without Spring</text>
+  <rect x="40" y="65" width="170" height="65" class="bad"/><text x="125" y="93" text-anchor="middle" class="text">OrderService</text><text x="125" y="114" text-anchor="middle" class="small">creates dependencies</text>
+  <path d="M210 98 H270" class="line"/><rect x="275" y="45" width="150" height="55" class="box"/><text x="350" y="78" text-anchor="middle" class="text">Repository</text>
+  <path d="M210 98 H270 V160 H275" class="line"/><rect x="275" y="135" width="150" height="55" class="box"/><text x="350" y="168" text-anchor="middle" class="text">PaymentClient</text>
+  <path d="M210 98 H270 V245 H275" class="line"/><rect x="275" y="220" width="150" height="55" class="box"/><text x="350" y="253" text-anchor="middle" class="text">EmailClient</text>
+  <text x="735" y="32" text-anchor="middle" class="text">With Spring</text>
+  <rect x="555" y="70" width="360" height="210" class="good"/><text x="735" y="100" text-anchor="middle" class="text">Spring Container</text>
+  <rect x="585" y="125" width="140" height="50" class="box"/><text x="655" y="156" text-anchor="middle" class="text">OrderService</text>
+  <rect x="760" y="120" width="120" height="45" class="box"/><text x="820" y="148" text-anchor="middle" class="text">Repository</text>
+  <rect x="760" y="175" width="120" height="45" class="box"/><text x="820" y="203" text-anchor="middle" class="text">Payment</text>
+  <rect x="760" y="230" width="120" height="45" class="box"/><text x="820" y="258" text-anchor="middle" class="text">Email</text>
+  <path d="M760 142 H725" class="line"/><path d="M760 197 H725" class="line"/><path d="M760 252 H725" class="line"/>
+</svg>
+

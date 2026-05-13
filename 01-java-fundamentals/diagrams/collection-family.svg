@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360" role="img" aria-labelledby="title desc">
+  <title id="title">Java collection family</title>
+  <desc id="desc">Hierarchy diagram showing Collection with List, Set, Queue and Map separately.</desc>
+  <style>
+    .box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}
+    .root{fill:#dbeafe;stroke:#1d4ed8;stroke-width:2;rx:10}
+    .map{fill:#fef3c7;stroke:#b45309;stroke-width:2;rx:10}
+    .text{font-family:Arial, Helvetica, sans-serif;font-size:16px;fill:#0f172a}
+    .small{font-family:Arial, Helvetica, sans-serif;font-size:13px;fill:#475569}
+    .line{stroke:#334155;stroke-width:2;fill:none}
+  </style>
+  <rect x="415" y="25" width="150" height="58" class="root"/>
+  <text x="490" y="60" text-anchor="middle" class="text">Collection</text>
+  <path d="M490 83 V120 M245 120 H735" class="line"/>
+  <path d="M245 120 V150 M490 120 V150 M735 120 V150" class="line"/>
+  <rect x="165" y="150" width="160" height="58" class="box"/>
+  <text x="245" y="185" text-anchor="middle" class="text">List</text>
+  <rect x="410" y="150" width="160" height="58" class="box"/>
+  <text x="490" y="185" text-anchor="middle" class="text">Set</text>
+  <rect x="655" y="150" width="160" height="58" class="box"/>
+  <text x="735" y="185" text-anchor="middle" class="text">Queue</text>
+  <text x="245" y="235" text-anchor="middle" class="small">ArrayList, LinkedList</text>
+  <text x="490" y="235" text-anchor="middle" class="small">HashSet, TreeSet</text>
+  <text x="735" y="235" text-anchor="middle" class="small">ArrayDeque, PriorityQueue</text>
+  <rect x="410" y="275" width="160" height="58" class="map"/>
+  <text x="490" y="299" text-anchor="middle" class="text">Map</text>
+  <text x="490" y="321" text-anchor="middle" class="small">HashMap, TreeMap</text>
+  <text x="490" y="350" text-anchor="middle" class="small">Map is part of Java Collections Framework, but not a Collection subtype</text>
+</svg>
+

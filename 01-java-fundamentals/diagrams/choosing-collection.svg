@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="500" viewBox="0 0 980 500" role="img" aria-labelledby="title desc">
+  <title id="title">Choosing a Java collection</title>
+  <desc id="desc">Decision flowchart for choosing List, Set, Map, or Queue.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#334155"/>
+    </marker>
+    <style>
+      .box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}
+      .decision{fill:#e0f2fe;stroke:#0369a1;stroke-width:2}
+      .answer{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}
+      .text{font-family:Arial, Helvetica, sans-serif;font-size:15px;fill:#0f172a}
+      .small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}
+      .line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect x="390" y="25" width="200" height="60" class="box"/>
+  <text x="490" y="60" text-anchor="middle" class="text">Need to store data?</text>
+  <path d="M490 85 V125" class="line"/>
+  <polygon points="490,125 630,185 490,245 350,185" class="decision"/>
+  <text x="490" y="181" text-anchor="middle" class="text">Need key lookup?</text>
+  <text x="490" y="202" text-anchor="middle" class="small">ID to object</text>
+  <path d="M630 185 H755" class="line"/>
+  <rect x="760" y="155" width="150" height="60" class="answer"/>
+  <text x="835" y="181" text-anchor="middle" class="text">Use Map</text>
+  <text x="835" y="202" text-anchor="middle" class="small">HashMap</text>
+  <path d="M490 245 V285" class="line"/>
+  <polygon points="490,285 630,345 490,405 350,345" class="decision"/>
+  <text x="490" y="341" text-anchor="middle" class="text">Need uniqueness?</text>
+  <text x="490" y="362" text-anchor="middle" class="small">no duplicates</text>
+  <path d="M350 345 H225" class="line"/>
+  <rect x="70" y="315" width="150" height="60" class="answer"/>
+  <text x="145" y="341" text-anchor="middle" class="text">Use List</text>
+  <text x="145" y="362" text-anchor="middle" class="small">ArrayList</text>
+  <path d="M630 345 H755" class="line"/>
+  <rect x="760" y="315" width="150" height="60" class="answer"/>
+  <text x="835" y="341" text-anchor="middle" class="text">Use Set</text>
+  <text x="835" y="362" text-anchor="middle" class="small">HashSet</text>
+  <path d="M490 405 V445" class="line"/>
+  <rect x="390" y="445" width="200" height="45" class="answer"/>
+  <text x="490" y="473" text-anchor="middle" class="text">For waiting work, use Queue</text>
+</svg>

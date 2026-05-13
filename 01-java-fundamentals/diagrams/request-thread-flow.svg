@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="260" viewBox="0 0 940 260" role="img" aria-labelledby="title desc">
+  <title id="title">Backend request thread flow</title>
+  <desc id="desc">Flowchart showing clients sending requests to a server thread pool and then to application code.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#dbeafe;stroke:#1d4ed8;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:15px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="30" y="90" width="120" height="60" class="accent"/><text x="90" y="115" text-anchor="middle" class="text">Clients</text><text x="90" y="136" text-anchor="middle" class="small">many requests</text>
+  <path d="M150 120 H225" class="line"/><rect x="230" y="55" width="180" height="130" class="box"/><text x="320" y="85" text-anchor="middle" class="text">Server Thread Pool</text><text x="320" y="112" text-anchor="middle" class="small">thread 1</text><text x="320" y="135" text-anchor="middle" class="small">thread 2</text><text x="320" y="158" text-anchor="middle" class="small">thread 3</text>
+  <path d="M410 120 H485" class="line"/><rect x="490" y="90" width="140" height="60" class="accent"/><text x="560" y="115" text-anchor="middle" class="text">Java Code</text><text x="560" y="136" text-anchor="middle" class="small">service logic</text>
+  <path d="M630 120 H705" class="line"/><rect x="710" y="90" width="170" height="60" class="box"/><text x="795" y="115" text-anchor="middle" class="text">Database/API</text><text x="795" y="136" text-anchor="middle" class="small">external work</text>
+</svg>
+

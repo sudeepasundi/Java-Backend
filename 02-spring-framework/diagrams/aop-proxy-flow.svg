@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="260" viewBox="0 0 920 260" role="img" aria-labelledby="title desc">
+  <title id="title">AOP proxy flow</title>
+  <desc id="desc">Flowchart showing caller invoking proxy, advice running, target method executing, and response returning.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#fef3c7;stroke:#b45309;stroke-width:2;rx:10}.good{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="35" y="95" width="110" height="65" class="box"/><text x="90" y="124" text-anchor="middle" class="text">Caller Bean</text>
+  <path d="M145 128 H215" class="line"/><rect x="220" y="95" width="115" height="65" class="accent"/><text x="277" y="124" text-anchor="middle" class="text">AOP Proxy</text>
+  <path d="M335 128 H405" class="line"/><rect x="410" y="95" width="120" height="65" class="good"/><text x="470" y="118" text-anchor="middle" class="text">Advice</text><text x="470" y="140" text-anchor="middle" class="small">before/around</text>
+  <path d="M530 128 H600" class="line"/><rect x="605" y="95" width="130" height="65" class="box"/><text x="670" y="124" text-anchor="middle" class="text">Target Method</text>
+  <path d="M735 128 H805" class="line"/><rect x="810" y="95" width="80" height="65" class="good"/><text x="850" y="118" text-anchor="middle" class="text">Return</text><text x="850" y="140" text-anchor="middle" class="small">result</text>
+</svg>
+

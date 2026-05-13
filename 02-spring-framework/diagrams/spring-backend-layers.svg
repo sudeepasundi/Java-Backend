@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="title desc">
+  <title id="title">Spring backend layers</title>
+  <desc id="desc">Layered architecture diagram showing controller to service to repository to database and external clients.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#dbeafe;stroke:#1d4ed8;stroke-width:2;rx:10}.ext{fill:#fef3c7;stroke:#b45309;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:15px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="45" y="105" width="130" height="70" class="accent"/><text x="110" y="132" text-anchor="middle" class="text">Controller</text><text x="110" y="154" text-anchor="middle" class="small">HTTP</text>
+  <path d="M175 140 H255" class="line"/><rect x="260" y="105" width="130" height="70" class="box"/><text x="325" y="132" text-anchor="middle" class="text">Service</text><text x="325" y="154" text-anchor="middle" class="small">business rules</text>
+  <path d="M390 140 H470" class="line"/><rect x="475" y="105" width="130" height="70" class="box"/><text x="540" y="132" text-anchor="middle" class="text">Repository</text><text x="540" y="154" text-anchor="middle" class="small">persistence</text>
+  <path d="M605 140 H685" class="line"/><rect x="690" y="105" width="130" height="70" class="accent"/><text x="755" y="132" text-anchor="middle" class="text">Database</text>
+  <path d="M325 105 V55 H690" class="line"/><rect x="695" y="25" width="150" height="60" class="ext"/><text x="770" y="50" text-anchor="middle" class="text">External Client</text><text x="770" y="70" text-anchor="middle" class="small">payment/email</text>
+</svg>

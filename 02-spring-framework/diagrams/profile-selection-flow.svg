@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="330" viewBox="0 0 920 330" role="img" aria-labelledby="title desc">
+  <title id="title">Spring profile selection flow</title>
+  <desc id="desc">Flowchart showing Spring reading active profile and choosing local, test, or production beans.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.decision{fill:#e0f2fe;stroke:#0369a1;stroke-width:2}.good{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="360" y="25" width="200" height="60" class="box"/><text x="460" y="61" text-anchor="middle" class="text">Application Starts</text>
+  <path d="M460 85 V120" class="line"/><polygon points="460,120 610,180 460,240 310,180" class="decision"/><text x="460" y="176" text-anchor="middle" class="text">Active Profile?</text><text x="460" y="197" text-anchor="middle" class="small">local, test, prod</text>
+  <path d="M310 180 H170" class="line"/><rect x="40" y="150" width="125" height="60" class="good"/><text x="102" y="175" text-anchor="middle" class="text">Local Beans</text><text x="102" y="196" text-anchor="middle" class="small">console email</text>
+  <path d="M460 240 V275" class="line"/><rect x="395" y="275" width="130" height="45" class="good"/><text x="460" y="303" text-anchor="middle" class="text">Test Beans</text>
+  <path d="M610 180 H750" class="line"/><rect x="755" y="150" width="125" height="60" class="good"/><text x="817" y="175" text-anchor="middle" class="text">Prod Beans</text><text x="817" y="196" text-anchor="middle" class="small">real SMTP</text>
+</svg>

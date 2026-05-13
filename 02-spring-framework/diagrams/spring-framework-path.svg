@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="280" viewBox="0 0 980 280" role="img" aria-labelledby="title desc">
+  <title id="title">Spring Framework learning path</title>
+  <desc id="desc">Flowchart showing Spring learning path from Java objects to IoC, beans, MVC, configuration, profiles, AOP, and Spring Boot readiness.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#334155"/>
+    </marker>
+    <style>
+      .box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:12}
+      .accent{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:12}
+      .text{font-family:Arial, Helvetica, sans-serif;font-size:15px;fill:#0f172a}
+      .small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}
+      .line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect x="25" y="85" width="125" height="75" class="accent"/>
+  <text x="87" y="116" text-anchor="middle" class="text">Java Objects</text>
+  <text x="87" y="140" text-anchor="middle" class="small">classes, interfaces</text>
+  <path d="M150 122 H190" class="line"/>
+  <rect x="195" y="85" width="115" height="75" class="box"/>
+  <text x="252" y="116" text-anchor="middle" class="text">IoC</text>
+  <text x="252" y="140" text-anchor="middle" class="small">Spring controls</text>
+  <path d="M310 122 H350" class="line"/>
+  <rect x="355" y="85" width="115" height="75" class="box"/>
+  <text x="412" y="116" text-anchor="middle" class="text">Beans</text>
+  <text x="412" y="140" text-anchor="middle" class="small">managed objects</text>
+  <path d="M470 122 H510" class="line"/>
+  <rect x="515" y="85" width="115" height="75" class="box"/>
+  <text x="572" y="116" text-anchor="middle" class="text">MVC</text>
+  <text x="572" y="140" text-anchor="middle" class="small">web requests</text>
+  <path d="M630 122 H670" class="line"/>
+  <rect x="675" y="85" width="125" height="75" class="box"/>
+  <text x="737" y="116" text-anchor="middle" class="text">Config</text>
+  <text x="737" y="140" text-anchor="middle" class="small">profiles, beans</text>
+  <path d="M800 122 H840" class="line"/>
+  <rect x="845" y="85" width="110" height="75" class="accent"/>
+  <text x="900" y="116" text-anchor="middle" class="text">AOP</text>
+  <text x="900" y="140" text-anchor="middle" class="small">cross-cutting</text>
+  <path d="M252 160 V220 H900 V160" class="line"/>
+  <text x="575" y="243" text-anchor="middle" class="small">These ideas make Spring Boot much easier to understand</text>
+</svg>

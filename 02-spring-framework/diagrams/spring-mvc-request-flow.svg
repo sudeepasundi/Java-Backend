@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="260" viewBox="0 0 980 260" role="img" aria-labelledby="title desc">
+  <title id="title">Spring MVC request flow</title>
+  <desc id="desc">Flowchart showing client request to DispatcherServlet, handler mapping, controller, service, repository, database, and response.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#dbeafe;stroke:#1d4ed8;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:13px;fill:#0f172a}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="20" y="95" width="90" height="60" class="accent"/><text x="65" y="130" text-anchor="middle" class="text">Client</text>
+  <path d="M110 125 H150" class="line"/><rect x="155" y="95" width="125" height="60" class="accent"/><text x="217" y="130" text-anchor="middle" class="text">DispatcherServlet</text>
+  <path d="M280 125 H320" class="line"/><rect x="325" y="95" width="115" height="60" class="box"/><text x="382" y="122" text-anchor="middle" class="text">Handler</text><text x="382" y="140" text-anchor="middle" class="text">Mapping</text>
+  <path d="M440 125 H480" class="line"/><rect x="485" y="95" width="100" height="60" class="box"/><text x="535" y="130" text-anchor="middle" class="text">Controller</text>
+  <path d="M585 125 H625" class="line"/><rect x="630" y="95" width="90" height="60" class="box"/><text x="675" y="130" text-anchor="middle" class="text">Service</text>
+  <path d="M720 125 H760" class="line"/><rect x="765" y="95" width="100" height="60" class="box"/><text x="815" y="130" text-anchor="middle" class="text">Repository</text>
+  <path d="M865 125 H905" class="line"/><rect x="910" y="95" width="60" height="60" class="accent"/><text x="940" y="130" text-anchor="middle" class="text">DB</text>
+</svg>
+

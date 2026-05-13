@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230" role="img" aria-labelledby="title desc">
+  <title id="title">JSON conversion flow</title>
+  <desc id="desc">Flowchart showing JSON request body converted by message converter to Java DTO and response DTO converted back to JSON.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#fef3c7;stroke:#b45309;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="40" y="80" width="130" height="70" class="accent"/><text x="105" y="108" text-anchor="middle" class="text">JSON Body</text><text x="105" y="130" text-anchor="middle" class="small">request</text>
+  <path d="M170 115 H250" class="line"/><rect x="255" y="80" width="165" height="70" class="box"/><text x="337" y="108" text-anchor="middle" class="text">Message Converter</text><text x="337" y="130" text-anchor="middle" class="small">Jackson</text>
+  <path d="M420 115 H500" class="line"/><rect x="505" y="80" width="130" height="70" class="accent"/><text x="570" y="108" text-anchor="middle" class="text">Java DTO</text><text x="570" y="130" text-anchor="middle" class="small">controller input</text>
+  <path d="M635 115 H715" class="line"/><rect x="720" y="80" width="140" height="70" class="box"/><text x="790" y="108" text-anchor="middle" class="text">Response JSON</text><text x="790" y="130" text-anchor="middle" class="small">client output</text>
+</svg>
+

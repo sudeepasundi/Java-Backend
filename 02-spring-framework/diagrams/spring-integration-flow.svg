@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="250" viewBox="0 0 940 250" role="img" aria-labelledby="title desc">
+  <title id="title">Spring integration flow</title>
+  <desc id="desc">Flowchart showing external library configuration as bean, injection into wrapper, and use by business service.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.ext{fill:#fef3c7;stroke:#b45309;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="30" y="85" width="150" height="70" class="ext"/><text x="105" y="112" text-anchor="middle" class="text">External Library</text><text x="105" y="134" text-anchor="middle" class="small">payment client</text>
+  <path d="M180 120 H245" class="line"/><rect x="250" y="85" width="140" height="70" class="box"/><text x="320" y="112" text-anchor="middle" class="text">@Bean Config</text><text x="320" y="134" text-anchor="middle" class="small">create object</text>
+  <path d="M390 120 H455" class="line"/><rect x="460" y="85" width="135" height="70" class="accent"/><text x="527" y="112" text-anchor="middle" class="text">Spring Bean</text><text x="527" y="134" text-anchor="middle" class="small">managed client</text>
+  <path d="M595 120 H660" class="line"/><rect x="665" y="85" width="120" height="70" class="box"/><text x="725" y="112" text-anchor="middle" class="text">Wrapper</text><text x="725" y="134" text-anchor="middle" class="small">your interface</text>
+  <path d="M785 120 H850" class="line"/><rect x="855" y="85" width="70" height="70" class="accent"/><text x="890" y="112" text-anchor="middle" class="text">Service</text>
+</svg>
+

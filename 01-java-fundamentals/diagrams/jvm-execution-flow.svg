@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="240" viewBox="0 0 980 240" role="img" aria-labelledby="title desc">
+  <title id="title">JVM execution flow</title>
+  <desc id="desc">Flowchart of Java source code to compiler, bytecode, class loader, verifier, interpreter, JIT compiler, and machine code.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#dbeafe;stroke:#1d4ed8;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="20" y="85" width="105" height="60" class="accent"/><text x="72" y="121" text-anchor="middle" class="text">.java</text>
+  <path d="M125 115 H165" class="line"/><rect x="170" y="85" width="105" height="60" class="box"/><text x="222" y="121" text-anchor="middle" class="text">javac</text>
+  <path d="M275 115 H315" class="line"/><rect x="320" y="85" width="105" height="60" class="box"/><text x="372" y="121" text-anchor="middle" class="text">.class</text>
+  <path d="M425 115 H465" class="line"/><rect x="470" y="85" width="115" height="60" class="box"/><text x="527" y="121" text-anchor="middle" class="text">ClassLoader</text>
+  <path d="M585 115 H625" class="line"/><rect x="630" y="85" width="105" height="60" class="box"/><text x="682" y="121" text-anchor="middle" class="text">Verifier</text>
+  <path d="M735 115 H775" class="line"/><rect x="780" y="45" width="150" height="60" class="accent"/><text x="855" y="81" text-anchor="middle" class="text">Interpreter</text>
+  <path d="M735 115 H775" class="line"/><rect x="780" y="135" width="150" height="60" class="accent"/><text x="855" y="171" text-anchor="middle" class="text">JIT Compiler</text>
+</svg>
+
