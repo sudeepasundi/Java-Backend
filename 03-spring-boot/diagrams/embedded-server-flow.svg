@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="260" viewBox="0 0 940 260" role="img" aria-labelledby="title desc">
+  <title id="title">Embedded server flow</title>
+  <desc id="desc">Diagram showing executable JAR containing application code and embedded server, started with java jar, receiving HTTP requests.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.server{fill:#fef3c7;stroke:#b45309;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="35" y="95" width="150" height="70" class="box"/><text x="110" y="123" text-anchor="middle" class="text">java -jar app.jar</text><text x="110" y="145" text-anchor="middle" class="small">start process</text>
+  <path d="M185 130 H255" class="line"/><rect x="260" y="55" width="250" height="150" class="accent"/><text x="385" y="85" text-anchor="middle" class="text">Executable JAR</text>
+  <rect x="290" y="105" width="90" height="55" class="box"/><text x="335" y="138" text-anchor="middle" class="text">App Code</text>
+  <rect x="395" y="105" width="90" height="55" class="server"/><text x="440" y="128" text-anchor="middle" class="text">Embedded</text><text x="440" y="146" text-anchor="middle" class="text">Tomcat</text>
+  <path d="M510 130 H585" class="line"/><rect x="590" y="95" width="135" height="70" class="server"/><text x="657" y="123" text-anchor="middle" class="text">HTTP Port</text><text x="657" y="145" text-anchor="middle" class="small">8080</text>
+  <path d="M725 130 H795" class="line"/><rect x="800" y="95" width="100" height="70" class="box"/><text x="850" y="123" text-anchor="middle" class="text">Clients</text><text x="850" y="145" text-anchor="middle" class="small">requests</text>
+</svg>

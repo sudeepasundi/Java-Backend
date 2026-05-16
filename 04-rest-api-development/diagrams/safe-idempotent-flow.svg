@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="330" viewBox="0 0 940 330" role="img" aria-labelledby="title desc">
+  <title id="title">Safe and idempotent method flow</title>
+  <desc id="desc">Decision diagram showing safe methods do not change state and idempotent methods have same final effect when repeated.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.decision{fill:#e0f2fe;stroke:#0369a1;stroke-width:2}.good{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.warn{fill:#fef3c7;stroke:#b45309;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="370" y="25" width="200" height="60" class="box"/><text x="470" y="61" text-anchor="middle" class="text">HTTP Method</text>
+  <path d="M470 85 V120" class="line"/><polygon points="470,120 610,175 470,230 330,175" class="decision"/><text x="470" y="171" text-anchor="middle" class="text">Changes server state?</text>
+  <path d="M330 175 H180" class="line"/><rect x="45" y="145" width="130" height="60" class="good"/><text x="110" y="171" text-anchor="middle" class="text">Safe</text><text x="110" y="192" text-anchor="middle" class="small">GET, OPTIONS</text>
+  <path d="M610 175 H760" class="line"/><rect x="765" y="145" width="130" height="60" class="warn"/><text x="830" y="171" text-anchor="middle" class="text">Not Safe</text><text x="830" y="192" text-anchor="middle" class="small">POST, PUT...</text>
+  <path d="M470 230 V270" class="line"/><rect x="345" y="270" width="250" height="45" class="good"/><text x="470" y="298" text-anchor="middle" class="text">Repeated same request has same final effect? Idempotent</text>
+</svg>
+

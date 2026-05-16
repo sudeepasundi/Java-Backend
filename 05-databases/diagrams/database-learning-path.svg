@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="280" viewBox="0 0 980 280" role="img" aria-labelledby="title desc">
+  <title id="title">Database learning path</title>
+  <desc id="desc">Flowchart showing database learning path from data modeling to SQL, transactions, indexes, NoSQL, Spring Data, and backend persistence.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:12}.accent{fill:#dbeafe;stroke:#1d4ed8;stroke-width:2;rx:12}.text{font-family:Arial, Helvetica, sans-serif;font-size:15px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="25" y="85" width="120" height="75" class="accent"/><text x="85" y="116" text-anchor="middle" class="text">Data Model</text><text x="85" y="140" text-anchor="middle" class="small">entities, rules</text>
+  <path d="M145 122 H188" class="line"/>
+  <rect x="190" y="85" width="105" height="75" class="box"/><text x="242" y="116" text-anchor="middle" class="text">SQL</text><text x="242" y="140" text-anchor="middle" class="small">tables, joins</text>
+  <path d="M295 122 H338" class="line"/>
+  <rect x="340" y="85" width="125" height="75" class="box"/><text x="402" y="116" text-anchor="middle" class="text">Transactions</text><text x="402" y="140" text-anchor="middle" class="small">ACID</text>
+  <path d="M465 122 H508" class="line"/>
+  <rect x="510" y="85" width="105" height="75" class="box"/><text x="562" y="116" text-anchor="middle" class="text">Indexes</text><text x="562" y="140" text-anchor="middle" class="small">faster reads</text>
+  <path d="M615 122 H658" class="line"/>
+  <rect x="660" y="85" width="105" height="75" class="box"/><text x="712" y="116" text-anchor="middle" class="text">NoSQL</text><text x="712" y="140" text-anchor="middle" class="small">documents</text>
+  <path d="M765 122 H808" class="line"/>
+  <rect x="810" y="85" width="145" height="75" class="accent"/><text x="882" y="116" text-anchor="middle" class="text">Spring Data</text><text x="882" y="140" text-anchor="middle" class="small">JPA, Mongo, JDBC</text>
+  <path d="M242 160 V220 H882 V160" class="line"/>
+  <text x="562" y="243" text-anchor="middle" class="small">Good persistence design starts from query patterns and consistency needs</text>
+</svg>

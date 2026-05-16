@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="260" viewBox="0 0 920 260" role="img" aria-labelledby="title desc">
+  <title id="title">HTTP status code families</title>
+  <desc id="desc">Diagram showing 1xx informational, 2xx success, 3xx redirection, 4xx client error, and 5xx server error families.</desc>
+  <style>.box{stroke:#334155;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:16px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}</style>
+  <rect x="35" y="85" width="150" height="80" class="box" fill="#f8fafc"/><text x="110" y="116" text-anchor="middle" class="text">1xx</text><text x="110" y="140" text-anchor="middle" class="small">informational</text>
+  <rect x="210" y="85" width="150" height="80" class="box" fill="#dcfce7"/><text x="285" y="116" text-anchor="middle" class="text">2xx</text><text x="285" y="140" text-anchor="middle" class="small">success</text>
+  <rect x="385" y="85" width="150" height="80" class="box" fill="#dbeafe"/><text x="460" y="116" text-anchor="middle" class="text">3xx</text><text x="460" y="140" text-anchor="middle" class="small">redirection</text>
+  <rect x="560" y="85" width="150" height="80" class="box" fill="#fef3c7"/><text x="635" y="116" text-anchor="middle" class="text">4xx</text><text x="635" y="140" text-anchor="middle" class="small">client error</text>
+  <rect x="735" y="85" width="150" height="80" class="box" fill="#fee2e2"/><text x="810" y="116" text-anchor="middle" class="text">5xx</text><text x="810" y="140" text-anchor="middle" class="small">server error</text>
+</svg>
+

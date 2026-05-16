@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" role="img" aria-labelledby="title desc">
+  <title id="title">HTTP method selection flow</title>
+  <desc id="desc">Decision flowchart for choosing GET, POST, PUT, PATCH, DELETE, OPTIONS, or TRACE.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.decision{fill:#e0f2fe;stroke:#0369a1;stroke-width:2}.answer{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:13px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:11px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="395" y="20" width="170" height="55" class="box"/><text x="480" y="53" text-anchor="middle" class="text">What should API do?</text>
+  <path d="M480 75 V110" class="line"/><polygon points="480,110 610,165 480,220 350,165" class="decision"/><text x="480" y="161" text-anchor="middle" class="text">Read data only?</text>
+  <path d="M350 165 H210" class="line"/><rect x="85" y="135" width="120" height="60" class="answer"/><text x="145" y="171" text-anchor="middle" class="text">GET</text>
+  <path d="M610 165 H750" class="line"/><rect x="755" y="135" width="120" height="60" class="answer"/><text x="815" y="171" text-anchor="middle" class="text">POST create</text>
+  <path d="M480 220 V255" class="line"/><polygon points="480,255 610,310 480,365 350,310" class="decision"/><text x="480" y="306" text-anchor="middle" class="text">Update existing?</text>
+  <path d="M350 310 H210" class="line"/><rect x="65" y="280" width="140" height="60" class="answer"/><text x="135" y="303" text-anchor="middle" class="text">DELETE</text><text x="135" y="322" text-anchor="middle" class="small">remove resource</text>
+  <path d="M610 310 H750" class="line"/><rect x="755" y="250" width="120" height="55" class="answer"/><text x="815" y="283" text-anchor="middle" class="text">PUT full</text>
+  <rect x="755" y="320" width="120" height="55" class="answer"/><text x="815" y="353" text-anchor="middle" class="text">PATCH partial</text>
+</svg>
+

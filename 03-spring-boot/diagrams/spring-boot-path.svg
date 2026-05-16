@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="280" viewBox="0 0 980 280" role="img" aria-labelledby="title desc">
+  <title id="title">Spring Boot learning path</title>
+  <desc id="desc">Flowchart showing Spring Boot learning path from Spring basics to starters, auto-configuration, embedded server, configuration, actuator, packaging, and production readiness.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#334155"/>
+    </marker>
+    <style>
+      .box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:12}
+      .accent{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:12}
+      .text{font-family:Arial, Helvetica, sans-serif;font-size:15px;fill:#0f172a}
+      .small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}
+      .line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect x="25" y="85" width="120" height="75" class="accent"/>
+  <text x="85" y="116" text-anchor="middle" class="text">Spring</text>
+  <text x="85" y="140" text-anchor="middle" class="small">beans, MVC</text>
+  <path d="M145 122 H188" class="line"/>
+  <rect x="190" y="85" width="120" height="75" class="box"/>
+  <text x="250" y="116" text-anchor="middle" class="text">Starters</text>
+  <text x="250" y="140" text-anchor="middle" class="small">dependencies</text>
+  <path d="M310 122 H353" class="line"/>
+  <rect x="355" y="85" width="145" height="75" class="box"/>
+  <text x="427" y="116" text-anchor="middle" class="text">Auto Config</text>
+  <text x="427" y="140" text-anchor="middle" class="small">smart defaults</text>
+  <path d="M500 122 H543" class="line"/>
+  <rect x="545" y="85" width="135" height="75" class="box"/>
+  <text x="612" y="116" text-anchor="middle" class="text">Embedded</text>
+  <text x="612" y="140" text-anchor="middle" class="small">server</text>
+  <path d="M680 122 H723" class="line"/>
+  <rect x="725" y="85" width="110" height="75" class="box"/>
+  <text x="780" y="116" text-anchor="middle" class="text">Config</text>
+  <text x="780" y="140" text-anchor="middle" class="small">YAML/profiles</text>
+  <path d="M835 122 H878" class="line"/>
+  <rect x="880" y="85" width="80" height="75" class="accent"/>
+  <text x="920" y="116" text-anchor="middle" class="text">Prod</text>
+  <text x="920" y="140" text-anchor="middle" class="small">ready</text>
+  <path d="M250 160 V220 H920 V160" class="line"/>
+  <text x="585" y="243" text-anchor="middle" class="small">Actuator, packaging, logging, and health checks support production operation</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="240" viewBox="0 0 920 240" role="img" aria-labelledby="title desc">
+  <title id="title">Spring Boot packaging flow</title>
+  <desc id="desc">Flowchart showing source code, tests, Maven build, executable JAR, and java jar run command.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="35" y="90" width="120" height="65" class="box"/><text x="95" y="117" text-anchor="middle" class="text">Source Code</text>
+  <path d="M155 122 H215" class="line"/><rect x="220" y="90" width="110" height="65" class="box"/><text x="275" y="117" text-anchor="middle" class="text">Tests</text>
+  <path d="M330 122 H390" class="line"/><rect x="395" y="90" width="120" height="65" class="box"/><text x="455" y="117" text-anchor="middle" class="text">Maven Build</text><text x="455" y="138" text-anchor="middle" class="small">package</text>
+  <path d="M515 122 H575" class="line"/><rect x="580" y="90" width="125" height="65" class="accent"/><text x="642" y="117" text-anchor="middle" class="text">Executable JAR</text>
+  <path d="M705 122 H765" class="line"/><rect x="770" y="90" width="115" height="65" class="accent"/><text x="827" y="117" text-anchor="middle" class="text">java -jar</text><text x="827" y="138" text-anchor="middle" class="small">run app</text>
+</svg>
+

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="340" viewBox="0 0 940 340" role="img" aria-labelledby="title desc">
+  <title id="title">Embed versus reference flow</title>
+  <desc id="desc">Decision flow for embedding or referencing data in MongoDB.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.decision{fill:#e0f2fe;stroke:#0369a1;stroke-width:2}.good{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.warn{fill:#fef3c7;stroke:#b45309;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="360" y="25" width="220" height="60" class="box"/><text x="470" y="61" text-anchor="middle" class="text">Related data in MongoDB</text>
+  <path d="M470 85 V120" class="line"/><polygon points="470,120 625,180 470,240 315,180" class="decision"/><text x="470" y="176" text-anchor="middle" class="text">Read together and bounded?</text>
+  <path d="M315 180 H170" class="line"/><rect x="40" y="150" width="125" height="60" class="good"/><text x="102" y="176" text-anchor="middle" class="text">Embed</text><text x="102" y="197" text-anchor="middle" class="small">nested document</text>
+  <path d="M625 180 H770" class="line"/><rect x="775" y="150" width="125" height="60" class="warn"/><text x="837" y="176" text-anchor="middle" class="text">Reference</text><text x="837" y="197" text-anchor="middle" class="small">separate document</text>
+  <path d="M470 240 V295" class="line"/><text x="470" y="318" text-anchor="middle" class="small">Avoid embedding arrays that can grow without limit</text>
+</svg>
+

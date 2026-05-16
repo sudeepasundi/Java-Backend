@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="930" height="300" viewBox="0 0 930 300" role="img" aria-labelledby="title desc">
+  <title id="title">SQL versus NoSQL mental model</title>
+  <desc id="desc">Diagram comparing SQL normalized tables and NoSQL query-shaped documents or rows.</desc>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.sql{fill:#dbeafe;stroke:#1d4ed8;stroke-width:2;rx:10}.nosql{fill:#fef3c7;stroke:#b45309;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:15px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}</style>
+  <text x="245" y="35" text-anchor="middle" class="text">SQL</text>
+  <rect x="55" y="70" width="150" height="60" class="sql"/><text x="130" y="105" text-anchor="middle" class="text">users</text>
+  <rect x="225" y="70" width="150" height="60" class="sql"/><text x="300" y="105" text-anchor="middle" class="text">orders</text>
+  <rect x="140" y="160" width="150" height="60" class="sql"/><text x="215" y="195" text-anchor="middle" class="text">order_items</text>
+  <text x="245" y="250" text-anchor="middle" class="small">normalized tables joined by keys</text>
+  <text x="695" y="35" text-anchor="middle" class="text">NoSQL</text>
+  <rect x="560" y="70" width="270" height="150" class="nosql"/><text x="695" y="105" text-anchor="middle" class="text">query-shaped document/row</text><text x="695" y="135" text-anchor="middle" class="small">nested data, duplicated fields, fast access pattern</text><text x="695" y="165" text-anchor="middle" class="small">model depends on database type</text>
+</svg>
+

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="250" viewBox="0 0 980 250" role="img" aria-labelledby="title desc">
+  <title id="title">API contract flow</title>
+  <desc id="desc">Flowchart showing endpoint, request, response, status codes, errors, documentation, and tests as API contract elements.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#dbeafe;stroke:#1d4ed8;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:13px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:11px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="20" y="95" width="105" height="60" class="accent"/><text x="72" y="121" text-anchor="middle" class="text">Endpoint</text><text x="72" y="139" text-anchor="middle" class="small">URL/method</text>
+  <path d="M125 125 H170" class="line"/><rect x="175" y="95" width="105" height="60" class="box"/><text x="227" y="121" text-anchor="middle" class="text">Request</text><text x="227" y="139" text-anchor="middle" class="small">body/params</text>
+  <path d="M280 125 H325" class="line"/><rect x="330" y="95" width="105" height="60" class="box"/><text x="382" y="121" text-anchor="middle" class="text">Response</text><text x="382" y="139" text-anchor="middle" class="small">JSON</text>
+  <path d="M435 125 H480" class="line"/><rect x="485" y="95" width="105" height="60" class="box"/><text x="537" y="121" text-anchor="middle" class="text">Status</text><text x="537" y="139" text-anchor="middle" class="small">2xx/4xx</text>
+  <path d="M590 125 H635" class="line"/><rect x="640" y="95" width="105" height="60" class="box"/><text x="692" y="121" text-anchor="middle" class="text">Errors</text><text x="692" y="139" text-anchor="middle" class="small">contract</text>
+  <path d="M745 125 H790" class="line"/><rect x="795" y="95" width="145" height="60" class="accent"/><text x="867" y="121" text-anchor="middle" class="text">Docs + Tests</text><text x="867" y="139" text-anchor="middle" class="small">protect contract</text>
+</svg>
+

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="280" viewBox="0 0 980 280" role="img" aria-labelledby="title desc">
+  <title id="title">Production readiness flow</title>
+  <desc id="desc">Flowchart showing code to tests, build artifact, configuration, health checks, logs, metrics, deployment, and monitoring.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#dbeafe;stroke:#1d4ed8;stroke-width:2;rx:10}.good{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:13px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:11px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="25" y="100" width="95" height="60" class="box"/><text x="72" y="135" text-anchor="middle" class="text">Code</text>
+  <path d="M120 130 H160" class="line"/><rect x="165" y="100" width="95" height="60" class="box"/><text x="212" y="135" text-anchor="middle" class="text">Tests</text>
+  <path d="M260 130 H300" class="line"/><rect x="305" y="100" width="105" height="60" class="accent"/><text x="357" y="126" text-anchor="middle" class="text">Build</text><text x="357" y="144" text-anchor="middle" class="small">artifact</text>
+  <path d="M410 130 H450" class="line"/><rect x="455" y="100" width="105" height="60" class="box"/><text x="507" y="126" text-anchor="middle" class="text">Config</text><text x="507" y="144" text-anchor="middle" class="small">env vars</text>
+  <path d="M560 130 H600" class="line"/><rect x="605" y="100" width="105" height="60" class="good"/><text x="657" y="126" text-anchor="middle" class="text">Health</text><text x="657" y="144" text-anchor="middle" class="small">Actuator</text>
+  <path d="M710 130 H750" class="line"/><rect x="755" y="100" width="95" height="60" class="accent"/><text x="802" y="135" text-anchor="middle" class="text">Deploy</text>
+  <path d="M850 130 H890" class="line"/><rect x="895" y="100" width="65" height="60" class="good"/><text x="927" y="126" text-anchor="middle" class="text">Monitor</text><text x="927" y="144" text-anchor="middle" class="small">logs</text>
+</svg>

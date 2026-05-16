@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="260" viewBox="0 0 920 260" role="img" aria-labelledby="title desc">
+  <title id="title">Starter dependency flow</title>
+  <desc id="desc">Flowchart showing one starter dependency bringing related libraries for web application development.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="35" y="95" width="190" height="70" class="accent"/><text x="130" y="123" text-anchor="middle" class="text">spring-boot-starter-web</text><text x="130" y="145" text-anchor="middle" class="small">one dependency</text>
+  <path d="M225 130 H300" class="line"/>
+  <rect x="305" y="35" width="130" height="50" class="box"/><text x="370" y="65" text-anchor="middle" class="text">Spring MVC</text>
+  <rect x="305" y="100" width="130" height="50" class="box"/><text x="370" y="130" text-anchor="middle" class="text">Jackson</text>
+  <rect x="305" y="165" width="130" height="50" class="box"/><text x="370" y="195" text-anchor="middle" class="text">Tomcat</text>
+  <rect x="500" y="35" width="130" height="50" class="box"/><text x="565" y="65" text-anchor="middle" class="text">Validation</text>
+  <rect x="500" y="100" width="130" height="50" class="box"/><text x="565" y="130" text-anchor="middle" class="text">Logging</text>
+  <rect x="500" y="165" width="130" height="50" class="box"/><text x="565" y="195" text-anchor="middle" class="text">Web defaults</text>
+  <path d="M630 130 H710" class="line"/><rect x="715" y="95" width="170" height="70" class="accent"/><text x="800" y="123" text-anchor="middle" class="text">Runnable web app</text><text x="800" y="145" text-anchor="middle" class="small">less manual setup</text>
+</svg>
+

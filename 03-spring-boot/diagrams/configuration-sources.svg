@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="260" viewBox="0 0 940 260" role="img" aria-labelledby="title desc">
+  <title id="title">Spring Boot configuration sources</title>
+  <desc id="desc">Diagram showing properties, YAML, environment variables, command line arguments, and secret managers feeding Spring Environment.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#dbeafe;stroke:#1d4ed8;stroke-width:2;rx:10}.env{fill:#fef3c7;stroke:#b45309;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="45" y="35" width="145" height="55" class="box"/><text x="117" y="68" text-anchor="middle" class="text">properties</text>
+  <rect x="45" y="105" width="145" height="55" class="box"/><text x="117" y="138" text-anchor="middle" class="text">YAML</text>
+  <rect x="45" y="175" width="145" height="55" class="env"/><text x="117" y="208" text-anchor="middle" class="text">env vars</text>
+  <path d="M190 62 H360" class="line"/><path d="M190 132 H360" class="line"/><path d="M190 202 H360" class="line"/>
+  <rect x="365" y="90" width="185" height="80" class="accent"/><text x="457" y="122" text-anchor="middle" class="text">Spring Environment</text><text x="457" y="146" text-anchor="middle" class="small">resolved property values</text>
+  <path d="M550 130 H705" class="line"/>
+  <rect x="710" y="90" width="180" height="80" class="accent"/><text x="800" y="122" text-anchor="middle" class="text">Application Beans</text><text x="800" y="146" text-anchor="middle" class="small">@Value / config binding</text>
+</svg>
+

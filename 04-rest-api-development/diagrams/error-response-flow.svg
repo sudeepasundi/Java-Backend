@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="930" height="260" viewBox="0 0 930 260" role="img" aria-labelledby="title desc">
+  <title id="title">Error response flow</title>
+  <desc id="desc">Flowchart showing exception or validation failure handled by global exception handler and returned as consistent error response.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.warn{fill:#fee2e2;stroke:#b91c1c;stroke-width:2;rx:10}.good{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="35" y="95" width="135" height="65" class="box"/><text x="102" y="122" text-anchor="middle" class="text">Controller</text><text x="102" y="143" text-anchor="middle" class="small">or service</text>
+  <path d="M170 128 H245" class="line"/><rect x="250" y="95" width="135" height="65" class="warn"/><text x="317" y="122" text-anchor="middle" class="text">Exception</text><text x="317" y="143" text-anchor="middle" class="small">or validation fail</text>
+  <path d="M385 128 H460" class="line"/><rect x="465" y="95" width="170" height="65" class="good"/><text x="550" y="122" text-anchor="middle" class="text">Global Handler</text><text x="550" y="143" text-anchor="middle" class="small">@RestControllerAdvice</text>
+  <path d="M635 128 H710" class="line"/><rect x="715" y="95" width="175" height="65" class="box"/><text x="802" y="122" text-anchor="middle" class="text">Error Contract</text><text x="802" y="143" text-anchor="middle" class="small">code, message, fields</text>
+</svg>
+

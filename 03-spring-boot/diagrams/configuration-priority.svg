@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="320" viewBox="0 0 860 320" role="img" aria-labelledby="title desc">
+  <title id="title">Configuration priority</title>
+  <desc id="desc">Layered diagram showing command line overriding environment variables, profile files, base files, and defaults.</desc>
+  <style>.layer{stroke:#334155;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:15px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}</style>
+  <rect x="230" y="30" width="400" height="45" class="layer" fill="#dcfce7"/><text x="430" y="58" text-anchor="middle" class="text">Command line arguments</text>
+  <rect x="250" y="85" width="360" height="45" class="layer" fill="#dbeafe"/><text x="430" y="113" text-anchor="middle" class="text">Environment variables</text>
+  <rect x="270" y="140" width="320" height="45" class="layer" fill="#fef3c7"/><text x="430" y="168" text-anchor="middle" class="text">Profile-specific config</text>
+  <rect x="290" y="195" width="280" height="45" class="layer" fill="#f8fafc"/><text x="430" y="223" text-anchor="middle" class="text">application.yml/properties</text>
+  <rect x="310" y="250" width="240" height="45" class="layer" fill="#f1f5f9"/><text x="430" y="278" text-anchor="middle" class="text">Default values</text>
+  <text x="430" y="315" text-anchor="middle" class="small">Higher layers override lower layers</text>
+</svg>

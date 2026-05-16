@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="240" viewBox="0 0 920 240" role="img" aria-labelledby="title desc">
+  <title id="title">Configuration binding flow</title>
+  <desc id="desc">Flowchart showing YAML values binding to configuration properties class and injected into service.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="35" y="85" width="145" height="70" class="box"/><text x="107" y="113" text-anchor="middle" class="text">application.yml</text><text x="107" y="135" text-anchor="middle" class="small">task.* values</text>
+  <path d="M180 120 H250" class="line"/><rect x="255" y="85" width="190" height="70" class="accent"/><text x="350" y="113" text-anchor="middle" class="text">@ConfigurationProperties</text><text x="350" y="135" text-anchor="middle" class="small">TaskProperties</text>
+  <path d="M445 120 H515" class="line"/><rect x="520" y="85" width="140" height="70" class="box"/><text x="590" y="113" text-anchor="middle" class="text">Validation</text><text x="590" y="135" text-anchor="middle" class="small">fail fast</text>
+  <path d="M660 120 H730" class="line"/><rect x="735" y="85" width="145" height="70" class="accent"/><text x="807" y="113" text-anchor="middle" class="text">Injected Service</text><text x="807" y="135" text-anchor="middle" class="small">uses settings</text>
+</svg>
+

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="260" viewBox="0 0 920 260" role="img" aria-labelledby="title desc">
+  <title id="title">Cassandra query-first modeling</title>
+  <desc id="desc">Flowchart showing Cassandra design starts with query, then partition key, clustering columns, table, and writes.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#fef3c7;stroke:#b45309;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="35" y="95" width="130" height="65" class="accent"/><text x="100" y="122" text-anchor="middle" class="text">Known Query</text><text x="100" y="143" text-anchor="middle" class="small">latest events</text>
+  <path d="M165 128 H240" class="line"/><rect x="245" y="95" width="135" height="65" class="box"/><text x="312" y="122" text-anchor="middle" class="text">Partition Key</text><text x="312" y="143" text-anchor="middle" class="small">user_id</text>
+  <path d="M380 128 H455" class="line"/><rect x="460" y="95" width="145" height="65" class="box"/><text x="532" y="122" text-anchor="middle" class="text">Clustering</text><text x="532" y="143" text-anchor="middle" class="small">event_time desc</text>
+  <path d="M605 128 H680" class="line"/><rect x="685" y="95" width="190" height="65" class="accent"/><text x="780" y="122" text-anchor="middle" class="text">Table For That Query</text><text x="780" y="143" text-anchor="middle" class="small">denormalized if needed</text>
+</svg>
+

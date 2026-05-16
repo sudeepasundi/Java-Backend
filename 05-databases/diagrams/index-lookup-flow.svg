@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="930" height="290" viewBox="0 0 930 290" role="img" aria-labelledby="title desc">
+  <title id="title">Index lookup flow</title>
+  <desc id="desc">Diagram comparing full table scan without index and direct lookup using an index.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.warn{fill:#fee2e2;stroke:#b91c1c;stroke-width:2;rx:10}.good{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <text x="230" y="35" text-anchor="middle" class="text">Without Index</text>
+  <rect x="45" y="70" width="150" height="65" class="box"/><text x="120" y="98" text-anchor="middle" class="text">Query email</text>
+  <path d="M195 103 H270" class="line"/><rect x="275" y="70" width="150" height="65" class="warn"/><text x="350" y="96" text-anchor="middle" class="text">Scan many rows</text><text x="350" y="117" text-anchor="middle" class="small">slow on large table</text>
+  <text x="690" y="35" text-anchor="middle" class="text">With Index</text>
+  <rect x="505" y="70" width="150" height="65" class="box"/><text x="580" y="98" text-anchor="middle" class="text">Query email</text>
+  <path d="M655 103 H730" class="line"/><rect x="735" y="70" width="150" height="65" class="good"/><text x="810" y="96" text-anchor="middle" class="text">Use index</text><text x="810" y="117" text-anchor="middle" class="small">jump to rows</text>
+  <rect x="275" y="180" width="380" height="65" class="good"/><text x="465" y="208" text-anchor="middle" class="text">Tradeoff</text><text x="465" y="229" text-anchor="middle" class="small">faster reads, extra storage, slower writes on indexed columns</text>
+</svg>
+

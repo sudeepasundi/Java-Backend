@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="930" height="320" viewBox="0 0 930 320" role="img" aria-labelledby="title desc">
+  <title id="title">Profile configuration flow</title>
+  <desc id="desc">Flowchart showing base application configuration combined with active profile-specific configuration.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.decision{fill:#e0f2fe;stroke:#0369a1;stroke-width:2}.good{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="55" y="110" width="150" height="65" class="box"/><text x="130" y="138" text-anchor="middle" class="text">application.yml</text><text x="130" y="158" text-anchor="middle" class="small">base values</text>
+  <path d="M205 142 H305" class="line"/><polygon points="395,85 510,142 395,200 280,142" class="decision"/><text x="395" y="138" text-anchor="middle" class="text">Active Profile?</text>
+  <path d="M510 142 H610" class="line"/><rect x="615" y="60" width="160" height="55" class="good"/><text x="695" y="93" text-anchor="middle" class="text">application-local.yml</text>
+  <path d="M510 142 H610 V205 H615" class="line"/><rect x="615" y="180" width="160" height="55" class="good"/><text x="695" y="213" text-anchor="middle" class="text">application-prod.yml</text>
+  <path d="M775 88 H850 V142" class="line"/><path d="M775 208 H850 V142" class="line"/><rect x="815" y="115" width="100" height="55" class="box"/><text x="865" y="148" text-anchor="middle" class="text">Final Config</text>
+</svg>
+

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="260" viewBox="0 0 980 260" role="img" aria-labelledby="title desc">
+  <title id="title">Spring Boot startup flow</title>
+  <desc id="desc">Flowchart showing main method, SpringApplication run, environment loading, application context, auto-configuration, component scanning, embedded server, and ready app.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#dbeafe;stroke:#1d4ed8;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:13px;fill:#0f172a}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="20" y="100" width="90" height="60" class="accent"/><text x="65" y="135" text-anchor="middle" class="text">main()</text>
+  <path d="M110 130 H150" class="line"/><rect x="155" y="100" width="120" height="60" class="box"/><text x="215" y="135" text-anchor="middle" class="text">run()</text>
+  <path d="M275 130 H315" class="line"/><rect x="320" y="100" width="120" height="60" class="box"/><text x="380" y="126" text-anchor="middle" class="text">Load</text><text x="380" y="144" text-anchor="middle" class="text">Environment</text>
+  <path d="M440 130 H480" class="line"/><rect x="485" y="100" width="120" height="60" class="box"/><text x="545" y="126" text-anchor="middle" class="text">Create</text><text x="545" y="144" text-anchor="middle" class="text">Context</text>
+  <path d="M605 130 H645" class="line"/><rect x="650" y="100" width="120" height="60" class="box"/><text x="710" y="126" text-anchor="middle" class="text">Auto</text><text x="710" y="144" text-anchor="middle" class="text">Configure</text>
+  <path d="M770 130 H810" class="line"/><rect x="815" y="100" width="145" height="60" class="accent"/><text x="887" y="126" text-anchor="middle" class="text">Server Ready</text><text x="887" y="144" text-anchor="middle" class="text">requests accepted</text>
+</svg>
+

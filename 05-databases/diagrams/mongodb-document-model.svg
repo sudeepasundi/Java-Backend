@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="330" viewBox="0 0 860 330" role="img" aria-labelledby="title desc">
+  <title id="title">MongoDB document model</title>
+  <desc id="desc">Diagram showing a MongoDB collection containing JSON-like documents with nested addresses and preferences.</desc>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.doc{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.nested{fill:#fef3c7;stroke:#b45309;stroke-width:2;rx:8}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}</style>
+  <rect x="75" y="40" width="710" height="250" class="box"/><text x="430" y="70" text-anchor="middle" class="text">users collection</text>
+  <rect x="130" y="100" width="260" height="150" class="doc"/><text x="260" y="128" text-anchor="middle" class="text">document</text><text x="160" y="155" class="small">_id: u1</text><text x="160" y="178" class="small">name: Asha</text><text x="160" y="201" class="small">email: asha@example.com</text>
+  <rect x="450" y="100" width="260" height="150" class="doc"/><text x="580" y="128" text-anchor="middle" class="text">nested fields</text>
+  <rect x="480" y="145" width="200" height="35" class="nested"/><text x="580" y="168" text-anchor="middle" class="small">addresses: [ ... ]</text>
+  <rect x="480" y="195" width="200" height="35" class="nested"/><text x="580" y="218" text-anchor="middle" class="small">preferences: { ... }</text>
+</svg>
+

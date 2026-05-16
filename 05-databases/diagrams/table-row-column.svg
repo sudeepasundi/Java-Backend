@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="300" viewBox="0 0 860 300" role="img" aria-labelledby="title desc">
+  <title id="title">Table row column diagram</title>
+  <desc id="desc">Diagram showing a database table with columns and rows.</desc>
+  <style>.grid{fill:#f8fafc;stroke:#334155;stroke-width:2}.head{fill:#dbeafe;stroke:#334155;stroke-width:2}.highlight{fill:#dcfce7;stroke:#15803d;stroke-width:3}.text{font-family:Arial, Helvetica, sans-serif;font-size:15px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}</style>
+  <text x="430" y="35" text-anchor="middle" class="text">users table</text>
+  <rect x="150" y="60" width="140" height="45" class="head"/><text x="220" y="88" text-anchor="middle" class="text">id</text>
+  <rect x="290" y="60" width="180" height="45" class="head"/><text x="380" y="88" text-anchor="middle" class="text">name</text>
+  <rect x="470" y="60" width="240" height="45" class="head"/><text x="590" y="88" text-anchor="middle" class="text">email</text>
+  <rect x="150" y="105" width="140" height="45" class="highlight"/><text x="220" y="133" text-anchor="middle" class="text">1</text>
+  <rect x="290" y="105" width="180" height="45" class="highlight"/><text x="380" y="133" text-anchor="middle" class="text">Asha</text>
+  <rect x="470" y="105" width="240" height="45" class="highlight"/><text x="590" y="133" text-anchor="middle" class="text">asha@example.com</text>
+  <rect x="150" y="150" width="140" height="45" class="grid"/><text x="220" y="178" text-anchor="middle" class="text">2</text>
+  <rect x="290" y="150" width="180" height="45" class="grid"/><text x="380" y="178" text-anchor="middle" class="text">Ravi</text>
+  <rect x="470" y="150" width="240" height="45" class="grid"/><text x="590" y="178" text-anchor="middle" class="text">ravi@example.com</text>
+  <text x="220" y="230" text-anchor="middle" class="small">column</text>
+  <text x="430" y="230" text-anchor="middle" class="small">highlighted horizontal record is one row</text>
+</svg>
+

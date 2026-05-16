@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="250" viewBox="0 0 920 250" role="img" aria-labelledby="title desc">
+  <title id="title">Mongo repository flow</title>
+  <desc id="desc">Flowchart showing MongoRepository interface, Spring Data proxy, Mongo template, and MongoDB collection.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#fef3c7;stroke:#b45309;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="35" y="95" width="165" height="65" class="box"/><text x="117" y="122" text-anchor="middle" class="text">MongoRepository</text><text x="117" y="143" text-anchor="middle" class="small">interface</text>
+  <path d="M200 128 H275" class="line"/><rect x="280" y="95" width="150" height="65" class="accent"/><text x="355" y="122" text-anchor="middle" class="text">Spring Data Proxy</text>
+  <path d="M430 128 H505" class="line"/><rect x="510" y="95" width="135" height="65" class="box"/><text x="577" y="122" text-anchor="middle" class="text">MongoTemplate</text>
+  <path d="M645 128 H720" class="line"/><rect x="725" y="95" width="150" height="65" class="accent"/><text x="800" y="122" text-anchor="middle" class="text">MongoDB</text><text x="800" y="143" text-anchor="middle" class="small">documents</text>
+</svg>
+

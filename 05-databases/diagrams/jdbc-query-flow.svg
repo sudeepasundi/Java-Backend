@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="250" viewBox="0 0 920 250" role="img" aria-labelledby="title desc">
+  <title id="title">JDBC query flow</title>
+  <desc id="desc">Flowchart showing repository SQL string passed to JdbcTemplate, database execution, ResultSet, and row mapper to DTO.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="35" y="95" width="120" height="65" class="box"/><text x="95" y="122" text-anchor="middle" class="text">SQL</text><text x="95" y="143" text-anchor="middle" class="small">explicit query</text>
+  <path d="M155 128 H230" class="line"/><rect x="235" y="95" width="135" height="65" class="accent"/><text x="302" y="122" text-anchor="middle" class="text">JdbcTemplate</text>
+  <path d="M370 128 H445" class="line"/><rect x="450" y="95" width="125" height="65" class="box"/><text x="512" y="122" text-anchor="middle" class="text">Database</text>
+  <path d="M575 128 H650" class="line"/><rect x="655" y="95" width="105" height="65" class="box"/><text x="707" y="122" text-anchor="middle" class="text">ResultSet</text>
+  <path d="M760 128 H835" class="line"/><rect x="840" y="95" width="60" height="65" class="accent"/><text x="870" y="122" text-anchor="middle" class="text">DTO</text>
+</svg>

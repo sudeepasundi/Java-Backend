@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="280" viewBox="0 0 980 280" role="img" aria-labelledby="title desc">
+  <title id="title">REST API learning path</title>
+  <desc id="desc">Flowchart showing REST API learning path from HTTP basics to resources, methods, status codes, errors, contracts, tests, and client-ready APIs.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:12}.accent{fill:#dbeafe;stroke:#1d4ed8;stroke-width:2;rx:12}.text{font-family:Arial, Helvetica, sans-serif;font-size:15px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="25" y="85" width="110" height="75" class="accent"/><text x="80" y="116" text-anchor="middle" class="text">HTTP</text><text x="80" y="140" text-anchor="middle" class="small">request/response</text>
+  <path d="M135 122 H178" class="line"/>
+  <rect x="180" y="85" width="120" height="75" class="box"/><text x="240" y="116" text-anchor="middle" class="text">Resources</text><text x="240" y="140" text-anchor="middle" class="small">URLs, nouns</text>
+  <path d="M300 122 H343" class="line"/>
+  <rect x="345" y="85" width="115" height="75" class="box"/><text x="402" y="116" text-anchor="middle" class="text">Methods</text><text x="402" y="140" text-anchor="middle" class="small">GET, POST</text>
+  <path d="M460 122 H503" class="line"/>
+  <rect x="505" y="85" width="125" height="75" class="box"/><text x="567" y="116" text-anchor="middle" class="text">Status</text><text x="567" y="140" text-anchor="middle" class="small">2xx, 4xx, 5xx</text>
+  <path d="M630 122 H673" class="line"/>
+  <rect x="675" y="85" width="110" height="75" class="box"/><text x="730" y="116" text-anchor="middle" class="text">Errors</text><text x="730" y="140" text-anchor="middle" class="small">contract</text>
+  <path d="M785 122 H828" class="line"/>
+  <rect x="830" y="85" width="125" height="75" class="accent"/><text x="892" y="116" text-anchor="middle" class="text">Tests</text><text x="892" y="140" text-anchor="middle" class="small">client-ready</text>
+  <path d="M240 160 V220 H892 V160" class="line"/>
+  <text x="565" y="243" text-anchor="middle" class="small">Good APIs are designed as contracts, not just controller code</text>
+</svg>

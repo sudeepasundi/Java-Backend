@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="title desc">
+  <title id="title">N plus one query flow</title>
+  <desc id="desc">Diagram showing one query for tasks followed by one query per task for related user data.</desc>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.warn{fill:#fee2e2;stroke:#b91c1c;stroke-width:2;rx:10}.good{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}</style>
+  <rect x="60" y="55" width="300" height="65" class="good"/><text x="210" y="84" text-anchor="middle" class="text">1 query</text><text x="210" y="105" text-anchor="middle" class="small">SELECT * FROM tasks</text>
+  <rect x="500" y="35" width="300" height="55" class="warn"/><text x="650" y="68" text-anchor="middle" class="text">query creator for task 1</text>
+  <rect x="500" y="105" width="300" height="55" class="warn"/><text x="650" y="138" text-anchor="middle" class="text">query creator for task 2</text>
+  <rect x="500" y="175" width="300" height="55" class="warn"/><text x="650" y="208" text-anchor="middle" class="text">query creator for task N</text>
+  <text x="450" y="265" text-anchor="middle" class="small">Total: 1 + N queries. This can become very slow.</text>
+</svg>
+

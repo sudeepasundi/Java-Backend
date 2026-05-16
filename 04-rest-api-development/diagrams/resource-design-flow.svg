@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="260" viewBox="0 0 940 260" role="img" aria-labelledby="title desc">
+  <title id="title">REST resource design flow</title>
+  <desc id="desc">Flowchart showing domain concept to resource noun, collection URL, item URL, nested resources, and query parameters.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:13px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:11px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="25" y="95" width="130" height="65" class="accent"/><text x="90" y="122" text-anchor="middle" class="text">Domain Thing</text><text x="90" y="142" text-anchor="middle" class="small">task, user, order</text>
+  <path d="M155 128 H215" class="line"/><rect x="220" y="95" width="120" height="65" class="box"/><text x="280" y="122" text-anchor="middle" class="text">Resource Noun</text><text x="280" y="142" text-anchor="middle" class="small">tasks</text>
+  <path d="M340 128 H400" class="line"/><rect x="405" y="95" width="125" height="65" class="box"/><text x="467" y="122" text-anchor="middle" class="text">Collection URL</text><text x="467" y="142" text-anchor="middle" class="small">/api/tasks</text>
+  <path d="M530 128 H590" class="line"/><rect x="595" y="95" width="120" height="65" class="box"/><text x="655" y="122" text-anchor="middle" class="text">Item URL</text><text x="655" y="142" text-anchor="middle" class="small">/api/tasks/{id}</text>
+  <path d="M715 128 H775" class="line"/><rect x="780" y="95" width="135" height="65" class="accent"/><text x="847" y="122" text-anchor="middle" class="text">Query Params</text><text x="847" y="142" text-anchor="middle" class="small">filter, page, sort</text>
+</svg>
+

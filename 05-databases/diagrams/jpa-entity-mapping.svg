@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-labelledby="title desc">
+  <title id="title">JPA entity mapping flow</title>
+  <desc id="desc">Diagram showing Java entity fields mapped to database table columns.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="60" y="70" width="240" height="130" class="accent"/><text x="180" y="100" text-anchor="middle" class="text">Task Java Entity</text><text x="100" y="130" class="small">id</text><text x="100" y="153" class="small">title</text><text x="100" y="176" class="small">completed</text>
+  <path d="M300 135 H420" class="line"/><rect x="425" y="85" width="130" height="100" class="box"/><text x="490" y="126" text-anchor="middle" class="text">JPA</text><text x="490" y="148" text-anchor="middle" class="small">mapping</text>
+  <path d="M555 135 H675" class="line"/><rect x="680" y="70" width="170" height="130" class="accent"/><text x="765" y="100" text-anchor="middle" class="text">tasks table</text><text x="715" y="130" class="small">id column</text><text x="715" y="153" class="small">title column</text><text x="715" y="176" class="small">completed column</text>
+</svg>
+

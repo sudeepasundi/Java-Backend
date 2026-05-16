@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="250" viewBox="0 0 940 250" role="img" aria-labelledby="title desc">
+  <title id="title">Spring Boot integration flow</title>
+  <desc id="desc">Flowchart showing starter dependency, classpath detection, auto-configuration, properties, beans, and application code.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:13px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:11px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="25" y="95" width="120" height="60" class="accent"/><text x="85" y="121" text-anchor="middle" class="text">Starter</text><text x="85" y="139" text-anchor="middle" class="small">dependency</text>
+  <path d="M145 125 H190" class="line"/><rect x="195" y="95" width="125" height="60" class="box"/><text x="257" y="121" text-anchor="middle" class="text">Classpath</text><text x="257" y="139" text-anchor="middle" class="small">detected</text>
+  <path d="M320 125 H365" class="line"/><rect x="370" y="95" width="140" height="60" class="box"/><text x="440" y="121" text-anchor="middle" class="text">Auto Config</text><text x="440" y="139" text-anchor="middle" class="small">conditions match</text>
+  <path d="M510 125 H555" class="line"/><rect x="560" y="95" width="115" height="60" class="box"/><text x="617" y="121" text-anchor="middle" class="text">Properties</text><text x="617" y="139" text-anchor="middle" class="small">customize</text>
+  <path d="M675 125 H720" class="line"/><rect x="725" y="95" width="90" height="60" class="accent"/><text x="770" y="121" text-anchor="middle" class="text">Beans</text>
+  <path d="M815 125 H860" class="line"/><rect x="865" y="95" width="60" height="60" class="accent"/><text x="895" y="121" text-anchor="middle" class="text">Code</text>
+</svg>
+

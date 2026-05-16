@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="260" viewBox="0 0 920 260" role="img" aria-labelledby="title desc">
+  <title id="title">SQL join flow</title>
+  <desc id="desc">Flowchart showing orders joined with users using user id to produce combined result.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.accent{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="45" y="65" width="140" height="65" class="box"/><text x="115" y="92" text-anchor="middle" class="text">orders</text><text x="115" y="113" text-anchor="middle" class="small">user_id</text>
+  <rect x="45" y="155" width="140" height="65" class="box"/><text x="115" y="182" text-anchor="middle" class="text">users</text><text x="115" y="203" text-anchor="middle" class="small">id</text>
+  <path d="M185 98 H295" class="line"/><path d="M185 188 H295" class="line"/>
+  <rect x="300" y="105" width="170" height="75" class="accent"/><text x="385" y="135" text-anchor="middle" class="text">JOIN condition</text><text x="385" y="158" text-anchor="middle" class="small">users.id = orders.user_id</text>
+  <path d="M470 143 H560" class="line"/>
+  <rect x="565" y="105" width="300" height="75" class="accent"/><text x="715" y="135" text-anchor="middle" class="text">combined result</text><text x="715" y="158" text-anchor="middle" class="small">order fields + user fields</text>
+</svg>
+

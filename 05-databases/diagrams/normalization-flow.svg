@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="930" height="260" viewBox="0 0 930 260" role="img" aria-labelledby="title desc">
+  <title id="title">Normalization flow</title>
+  <desc id="desc">Flowchart showing duplicated table split into users, orders, products, and order items.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.warn{fill:#fee2e2;stroke:#b91c1c;stroke-width:2;rx:10}.good{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:14px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:12px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="40" y="90" width="200" height="80" class="warn"/><text x="140" y="121" text-anchor="middle" class="text">One wide table</text><text x="140" y="145" text-anchor="middle" class="small">duplicated user/product data</text>
+  <path d="M240 130 H335" class="line"/>
+  <rect x="340" y="45" width="120" height="55" class="good"/><text x="400" y="78" text-anchor="middle" class="text">users</text>
+  <rect x="340" y="115" width="120" height="55" class="good"/><text x="400" y="148" text-anchor="middle" class="text">orders</text>
+  <rect x="340" y="185" width="120" height="55" class="good"/><text x="400" y="218" text-anchor="middle" class="text">products</text>
+  <path d="M460 142 H555" class="line"/>
+  <rect x="560" y="115" width="150" height="55" class="good"/><text x="635" y="148" text-anchor="middle" class="text">order_items</text>
+  <path d="M710 142 H805" class="line"/>
+  <rect x="810" y="90" width="90" height="80" class="good"/><text x="855" y="121" text-anchor="middle" class="text">Less</text><text x="855" y="145" text-anchor="middle" class="small">duplication</text>
+</svg>

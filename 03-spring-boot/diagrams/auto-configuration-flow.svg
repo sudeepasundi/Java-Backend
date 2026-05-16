@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="300" viewBox="0 0 980 300" role="img" aria-labelledby="title desc">
+  <title id="title">Auto-configuration flow</title>
+  <desc id="desc">Flowchart showing Spring Boot checking classpath, properties, existing beans, conditions, and creating default beans.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#334155"/></marker></defs>
+  <style>.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10}.decision{fill:#e0f2fe;stroke:#0369a1;stroke-width:2}.good{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:10}.text{font-family:Arial, Helvetica, sans-serif;font-size:13px;fill:#0f172a}.small{font-family:Arial, Helvetica, sans-serif;font-size:11px;fill:#475569}.line{stroke:#334155;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <rect x="35" y="110" width="125" height="60" class="box"/><text x="97" y="136" text-anchor="middle" class="text">Classpath</text><text x="97" y="154" text-anchor="middle" class="small">which libraries?</text>
+  <path d="M160 140 H220" class="line"/><rect x="225" y="110" width="125" height="60" class="box"/><text x="287" y="136" text-anchor="middle" class="text">Properties</text><text x="287" y="154" text-anchor="middle" class="small">what settings?</text>
+  <path d="M350 140 H410" class="line"/><rect x="415" y="110" width="125" height="60" class="box"/><text x="477" y="136" text-anchor="middle" class="text">Existing Beans</text><text x="477" y="154" text-anchor="middle" class="small">customized?</text>
+  <path d="M540 140 H600" class="line"/><polygon points="680,85 790,140 680,195 570,140" class="decision"/><text x="680" y="136" text-anchor="middle" class="text">Conditions match?</text>
+  <path d="M790 140 H850" class="line"/><rect x="855" y="110" width="100" height="60" class="good"/><text x="905" y="136" text-anchor="middle" class="text">Create</text><text x="905" y="154" text-anchor="middle" class="small">default bean</text>
+  <path d="M680 195 V245 H855" class="line"/><text x="765" y="267" text-anchor="middle" class="small">If no, Boot backs off or skips configuration</text>
+</svg>
+
